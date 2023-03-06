@@ -1,0 +1,3 @@
+- Le suivi du profit est un élément clé de la gestion efficace d'un magasin car il permet aux commerçants de prendre des décisions éclairées quant aux produits à acheter et à vendre.
+- Pour cela, on va créer notre classe ProfitTracker qui va nous permet de suivre les revenus du vente de tous les produits, les dépenses pour réapprovisionner les différents produits en rupture du stock, ainsi que mettre à jour la balance.
+- Cette classe va etre liée par la suite à la classe InventoryManager pour que à chaque fois qu'on vend ou achète un produit, on enregistre nos revenus et nos dépenses et on mis à jour notre balance. 

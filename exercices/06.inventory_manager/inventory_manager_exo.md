@@ -1,0 +1,4 @@
+- Nous allons a présent créer une classe "InventoryManager" qui permet de gérer un inventaire de produits. 
+- Cette classe contient plusieurs méthodes qui permettent d'ajouter et de supprimer des produits depuis l'inventaire, de rechercher si un produit existe, de vendre et réapprovisionner un produit, et de lister tous les produits disponibles.
+- Dans ce cas précis, vous etes censés implémenté les différentes méthodes en respectant les consignes et les étapes fournies.
+- Vous aurez à la fin de ce projet, une classe InventoryManager qui gère le stock de tous les produits ainsi qu'elle gère les opérations de vente et d'achat.
