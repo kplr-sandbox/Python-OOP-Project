@@ -1,0 +1,46 @@
+{
+  "clients": {
+    "personne1": {
+      "nom": "Dupont",
+      "prenom": "Jean",
+      "age": 25,
+      "adresse": {
+        "rue": "Rue de la Paix",
+        "ville": "Paris",
+        "pays": "France"
+      },
+      "contacts": {
+        "email": "jean.dupont@example.com",
+        "telephone": "06 23 45 67 89"
+      }
+    },
+    "personne2": {
+      "nom": "Martin",
+      "prenom": "Marie",
+      "age": 30,
+      "adresse": {
+        "rue": "Avenue des Champs-Élysées",
+        "ville": "Paris",
+        "pays": "France"
+      },
+      "contacts": {
+        "email": "marie.martin@example.com",
+        "telephone": "06 34 56 78 90"
+      }
+    },
+    "personne3": {
+      "nom": "Durand",
+      "prenom": "Pierre",
+      "age": 35,
+      "adresse": {
+        "rue": "Rue du Faubourg Saint-Honoré",
+        "ville": "Paris",
+        "pays": "France"
+      },
+      "contacts": {
+        "email": "pierre.durand@example.com",
+        "telephone": "06 45 67 89 01"
+      }
+    }
+  }
+}
