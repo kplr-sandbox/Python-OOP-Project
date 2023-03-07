@@ -11,5 +11,5 @@
 6- Attendez que le update s'effectue.<br>
 ![image](https://user-images.githubusercontent.com/123748165/223423543-fe53c9fd-5346-403d-9af6-0766d8d39a48.png)<br>
 7-Revenez dans votre codescpace, puis appuyez su ![image](https://user-images.githubusercontent.com/123748165/223425959-19b574d1-c82a-4430-8f14-d77c4b901fcf.png).<br>
-8-.<br>
-![image](https://user-images.githubusercontent.com/123748165/223423709-17da3e93-f180-4914-a138-d6296974271d.png)<br>
+8-Appuyez sur les ![image](https://user-images.githubusercontent.com/123748165/223426488-8383daf2-166f-4f66-89d0-d814f859d73a.png) puis sur pull.<br>
+![image](https://user-images.githubusercontent.com/123748165/223426386-8db113a9-4faf-4698-808e-fa8a625918ed.png)<br>
