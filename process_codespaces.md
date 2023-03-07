@@ -5,8 +5,8 @@
 3- Appuyez sur "Oui" pour sauvegarder le changement que vous avez effectué. 
 ![image](https://user-images.githubusercontent.com/123748165/223423165-b6cca62c-3712-48bc-b635-814285ed89eb.png)<br>
 4- Appuyez sur "Synchroniser les modifications" pour les stoquer dans github.
-![image](https://user-images.githubusercontent.com/123748165/223423205-f805c694-400d-46e6-9508-11cf8a6b46f6.png)
+![image](https://user-images.githubusercontent.com/123748165/223423205-f805c694-400d-46e6-9508-11cf8a6b46f6.png)<br>
 5-
-![image](https://user-images.githubusercontent.com/123748165/223423481-5d514170-56b0-4d05-bc51-55128f9af3b7.png)
-![image](https://user-images.githubusercontent.com/123748165/223423543-fe53c9fd-5346-403d-9af6-0766d8d39a48.png)
-![image](https://user-images.githubusercontent.com/123748165/223423709-17da3e93-f180-4914-a138-d6296974271d.png)
+![image](https://user-images.githubusercontent.com/123748165/223423481-5d514170-56b0-4d05-bc51-55128f9af3b7.png)<br>
+![image](https://user-images.githubusercontent.com/123748165/223423543-fe53c9fd-5346-403d-9af6-0766d8d39a48.png)<br>
+![image](https://user-images.githubusercontent.com/123748165/223423709-17da3e93-f180-4914-a138-d6296974271d.png)<br>
