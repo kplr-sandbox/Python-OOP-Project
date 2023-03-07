@@ -2,15 +2,15 @@
   ![Capture d’écran 2023-03-05 231218](https://user-images.githubusercontent.com/123748165/223422918-082c398d-690f-41f1-ab57-244e2427926d.png)<br>
 ==========================================
 
-2- Mettez votre prénom dans la partie message, puis appuyé sur validation.
+2- Mettez votre prénom dans la partie message, puis appuyé sur validation.<br>
 ![image](https://user-images.githubusercontent.com/123748165/223423069-5075848d-d216-4cde-b4d3-11ccb5322018.png)<br>
 ==========================================
 
-3- Appuyez sur "Oui" pour sauvegarder le changement que vous avez effectué. 
+3- Appuyez sur "Oui" pour sauvegarder le changement que vous avez effectué.<br>
 ![image](https://user-images.githubusercontent.com/123748165/223423165-b6cca62c-3712-48bc-b635-814285ed89eb.png)<br>
 ==========================================
 
-4- Appuyez sur "Synchroniser les modifications" pour les stoquer dans github.
+4- Appuyez sur "Synchroniser les modifications" pour les stoquer dans github.<br>
 ![image](https://user-images.githubusercontent.com/123748165/223423205-f805c694-400d-46e6-9508-11cf8a6b46f6.png)<br>
 ==========================================
 
@@ -27,3 +27,5 @@
 
 8-Appuyez sur les ![image](https://user-images.githubusercontent.com/123748165/223426488-8383daf2-166f-4f66-89d0-d814f859d73a.png) puis sur pull.<br>
 ![image](https://user-images.githubusercontent.com/123748165/223426386-8db113a9-4faf-4698-808e-fa8a625918ed.png)<br>
+==========================================
+
