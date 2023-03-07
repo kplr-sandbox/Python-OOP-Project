@@ -1,4 +1,5 @@
-# nous allons a présent utiliser la classe Tree de la librairie treelib pour construire un arbdre de donnée
+# nous allons a présent utiliser la classe Tree de la librairie treelib pour construire un arbre de donnée
+import os
 
 from treelib import Tree
 

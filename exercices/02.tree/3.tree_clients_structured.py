@@ -26,7 +26,6 @@ En résumé, ce code
 import json
 from unidecode import unidecode
 from treelib import Tree
-import os
 
 def json_dict_from_file():
     """
