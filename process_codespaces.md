@@ -26,11 +26,11 @@
 ==========================================
 
 8- Appuyez sur les ![image](https://user-images.githubusercontent.com/123748165/223426488-8383daf2-166f-4f66-89d0-d814f859d73a.png) puis sur pull
-<br>![image](https://user-images.githubusercontent.com/123748165/223426386-8db113a9-4faf-4698-808e-fa8a625918ed.png)
+<br>![image](https://user-images.githubusercontent.com/123748165/223426386-8db113a9-4faf-4698-808e-fa8a625918ed.png).<br>
 
 ==========================================
 9- **⚠ :**  Envisagez à stopper vos codespace.<br>
-![image](https://user-images.githubusercontent.com/123748165/223712238-9bf333a4-5b70-4d9d-aa1b-da3b534c2223.png)<br>
+![image](https://user-images.githubusercontent.com/123748165/223712238-9bf333a4-5b70-4d9d-aa1b-da3b534c2223.png).<br>
 
 ==========================================
 10- **⚠ :** GitHub Codespaces compute usage.<br>
