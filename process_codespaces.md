@@ -30,8 +30,6 @@
 
 ==========================================
 <br>
->[!WARNING]
->This is a warning
 9- **⚠ :**  Envisagez à stopper vos codespace.<br>
 ![image](https://user-images.githubusercontent.com/123748165/223712238-9bf333a4-5b70-4d9d-aa1b-da3b534c2223.png).<br>
 
