@@ -32,6 +32,6 @@
 ![image](https://user-images.githubusercontent.com/123748165/223712238-9bf333a4-5b70-4d9d-aa1b-da3b534c2223.png)
 
 =========================================
-10-![alerte](https://user-images.githubusercontent.com/123748165/223713314-2a712de0-1e38-4956-999c-490efa87e957.png) GitHub Codespaces compute usage .<br>
+10-![alerte] GitHub Codespaces compute usage .<br>
 ![image](https://user-images.githubusercontent.com/123748165/223713061-53ca576a-6bf2-416f-89dd-5fd0aa95c91e.png)
 ==========================================
