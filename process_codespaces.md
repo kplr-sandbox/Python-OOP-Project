@@ -28,4 +28,10 @@
 8-Appuyez sur les ![image](https://user-images.githubusercontent.com/123748165/223426488-8383daf2-166f-4f66-89d0-d814f859d73a.png) puis sur pull.<br>
 ![image](https://user-images.githubusercontent.com/123748165/223426386-8db113a9-4faf-4698-808e-fa8a625918ed.png)<br>
 ==========================================
+9-envisagez à stopper vos codespace, une fois que vous avez terminé votre travail.<br>
+![image](https://user-images.githubusercontent.com/123748165/223712238-9bf333a4-5b70-4d9d-aa1b-da3b534c2223.png)
 
+=========================================
+10-![alerte](https://user-images.githubusercontent.com/123748165/223713314-2a712de0-1e38-4956-999c-490efa87e957.png) GitHub Codespaces compute usage .<br>
+![image](https://user-images.githubusercontent.com/123748165/223713061-53ca576a-6bf2-416f-89dd-5fd0aa95c91e.png)
+==========================================
