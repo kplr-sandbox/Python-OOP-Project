@@ -44,26 +44,6 @@ class TestInventoryManager(unittest.TestCase):
         self.assertEqual(str(list_product['Chaise']), expected_output)
 
 
-# class TestProfitTracker(unittest.TestCase):
-
-#     def setUp(self):
-#         self.profit_tracker = ProfitTracker()
-#         self.chaise = Chaise("materiau2", "couleur2", "dimension2", 50, 100, "Ikea")
-#         self.pantalon = Pantalon("M", "noir", "jeans", 150, 200,"Zara")
-
-#     def test_buy_product(self):
-#         self.assertTrue(self.profit_tracker.buy_product(self.chaise, 5))
-#         self.assertFalse(self.profit_tracker.buy_product(self.pantalon, 1000))
-
-#     def test_sell_product(self):
-#         self.profit_tracker.sell_product(self.chaise, 2)
-#         self.assertEqual(self.profit_tracker.balance, 1200)
-
-#     def test_calcul_profit(self):
-#         self.profit_tracker.buy_product(self.pantalon, 2)
-#         self.profit_tracker.sell_product(self.pantalon, 5)
-#         self.assertEqual(self.profit_tracker.calcul_profit(), 1700)
-
 
 if __name__ == '__main__':
     unittest.main()
