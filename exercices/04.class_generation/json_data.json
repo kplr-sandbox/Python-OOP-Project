@@ -1,0 +1,72 @@
+{
+  "Product": {
+    "cost": "",
+    "price": "",
+    "marque": "",
+    "subclasses": {
+      "Biens Consommation": {
+        "subclasses": {
+          "Articles Menagers": {
+            "subclasses": {
+              "Meubles": {
+                "materiau": "",
+                "couleur": "",
+                "dimensions": "",
+                "subclasses": {
+                  "Canape": {},
+                  "Chaise": {},
+                  "Table": {}
+                }
+              },
+              "Appareils Electromenagers": {
+                "capacite": "",
+                "subclasses": {
+                  "Refrigerateur": {
+                    "efficacite": ""
+                  },
+                  "Lave-vaisselle": {
+                    "programme": ""
+                  },
+                  "Lave-linge": {
+                    "programme": ""
+                  }
+                }
+              },
+              "Ustensiles Cuisine": {
+                "materiaux": "",
+                "subclasses": {
+                  "Casserole": {
+                    "diametre": ""
+                  },
+                  "Batterie Cuisine": {
+                    "nombre_pieces": ""
+                  }
+                }
+              }
+            }
+          },
+          "Habillement": {
+            "subclasses": {
+              "Vetements": {
+                "taille": "",
+                "couleur": "",
+                "matiere": "",
+                "subclasses": {
+                  "Haut": {},
+                  "Pantalon": {},
+                  "Robe": {}
+                }
+              },
+              "Casquette": {
+                "couleur": ""
+              },
+              "Chaussures": {
+                "pointure": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

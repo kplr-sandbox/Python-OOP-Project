@@ -92,6 +92,8 @@ Ce code génère la définition de la classe Voiture, qui hérite de la classe V
 Le constructeur de la classe prend en argument moteur, nbportes, marque et modele, ainsi que les arguments de la superclasse Vehicule. 
 La variable code_classe contient le code source généré par la fonction generate_class_def
 """
+
+
 def test_fonction():
     
     attributs = {
@@ -105,3 +107,19 @@ def test_fonction():
 if __name__ == '__main__':
     # Appeler la fonction principale
     test_fonction()
+
+'''class Vehicule:
+        def __init__(self, marque, modele):
+                self.marque = marque
+                self.modele = modele
+
+
+class Voiture(Vehicule):
+        def __init__(self, moteur, nbportes, marque, modele):
+                super().__init__(marque, modele)
+                self.moteur = moteur
+                self.nbportes = nbportes
+                '''
+
+clio=Voiture('diesel', 5, 'Renault', 'clio')
+print(clio.moteur)

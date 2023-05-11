@@ -25,10 +25,9 @@ def create_tree_from_dict(tree, parent_node_id, parent_dict):
     Créer le noeud racine de l'arbre
     Parcourir récursivement le dictionnaire Python pour créer les noeuds de l'arbre (fonction ci dessous)
     Retourner l'arbre'''
-    for key, value in parent_dict.items():
-        if isinstance(value, dict):
-            # Créer un nouveau noeud pour la clé courante du dictionnaire
-            new_node_id = f"{parent_node_id}.{key}"
+    
+                
+'''            ew_node_id = f"{parent_node_id}.{key}"
             tree.create_node(tag=key, identifier=new_node_id, parent=parent_node_id)
             
             # Créer récursivement le sous-arbre pour le dictionnaire courant
@@ -38,7 +37,7 @@ def create_tree_from_dict(tree, parent_node_id, parent_dict):
             # Créer un nouveau noeud pour la feuille courante du dictionnaire
             leaf_node_id = f"{parent_node_id}.{key}"
             tree.create_node(tag=f"{key}: {value}", identifier=leaf_node_id, parent=parent_node_id)
-
+'''
 def json_dict_from_file():
     """
     Cette fonction ouvre et charge les données JSON du fichier
@@ -73,14 +72,8 @@ def json_dict_from_file():
 # je crée le dictionnaire "nettoyé" à partir du Json
 
 json_dict=json_dict_from_file()
-print(json_dict) # juste pour voir
 
 
-my_tree=Tree() # crétion de l'arbre initial
-my_tree.create_node(tag="Racine", identifier="racine")
-create_tree_from_dict(my_tree,"racine", json_dict)
-
-my_tree.show()
 
 
 
