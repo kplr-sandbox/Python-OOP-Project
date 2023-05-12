@@ -46,7 +46,8 @@ def create_tree_from_dict(json_dict):
     return tree
 
 def recusive_tree_from_json(json_dict, parent_node_id):
-    for class_name, class_attrs in json_dict.items():            
+    for class_name, class_attrs in json_dict.items(): 
+            print(class_name, "\n", class_attrs)           
             class_node_id = class_name
             class_node_name = class_name
 

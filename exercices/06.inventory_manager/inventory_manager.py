@@ -1,4 +1,5 @@
 #La classe "InventoryManager" est une classe qui permet de gérer un inventaire de produits. 
+from generator.inventory_product_entry import *
 
 class InventoryManager:
     # Initialisation de la classe
@@ -19,6 +20,12 @@ class InventoryManager:
                 retourner True
         retourner False
         """
+        self.product = product
+        
+        if product.name in self.inventory.keys():
+            return True
+        else:
+            return False
     
     #Méthode add_product
     """
@@ -33,7 +40,16 @@ class InventoryManager:
             Créer un nouvel objet InventoryProductEntry en utilisant le produit et la quantité fournis
             Ajouter le nouvel objet au dictionnaire 'inventory'
         """
-    
+        self.product = product
+        self.quantity = quantity
+        
+        if product.name in self.inventory.keys():
+            print("Le produit existe déjà.")
+            return
+        else:
+            product = InventoryProductEntry(self.product, self.quantity)
+            Inventory.append(product.name, product)
+
     #Méthode remove_product
     """
     La méthode remove_product est utilisée pour supprimer un produit de l'inventaire.

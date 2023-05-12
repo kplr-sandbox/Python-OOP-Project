@@ -20,6 +20,11 @@ def generate_class_hierarchy(json_dict :dict, superclass_name:str=None,superclas
 
     return class_defs
 
+def write_content(content,filename):
+        with open(filename, "w", encoding='utf-8') as f:
+            f.write(content)
+
+
 # Charger des données JSON à partir du fichier dans un dictionnaire python
 local_path = os.path.dirname(os.path.abspath(__file__))
 json_data = json.load(open(os.path.join(local_path, 'json_data.json'), "rb"))
@@ -38,5 +43,5 @@ json_dict = json.loads(json_data)
 generate_class_hierarchy (json_dict)
 # Stocker le résultat de la classe dans une variable
 
-class_defs=generate_class_hierarchy(json_dict)
-print(class_defs)
+content=generate_class_hierarchy(json_dict)
+write_content(content,'/workspaces/Python-OOP-Project/exercices/04.class_generation/product_classes.py')
