@@ -44,4 +44,4 @@ generate_class_hierarchy (json_dict)
 # Stocker le résultat de la classe dans une variable
 
 content=generate_class_hierarchy(json_dict)
-write_content(content,'/workspaces/Python-OOP-Project/exercices/04.class_generation/liste_classes.txt')
+write_content(content,'/workspaces/Python-OOP-Project/exercices/04.class_generation/product_classes.py')

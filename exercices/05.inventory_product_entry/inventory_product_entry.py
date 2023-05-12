@@ -1,9 +1,17 @@
 # Vous allez créer une classe InventoryProductEntry qui a pour role 
 # de représenter une entrée d'inventaire pour un produit spécifique.
+from generator.product_classes import Product
+
+
 
 class InventoryProductEntry:
     # Initialisation de la classe, en prenant en argument un objet Product et une quantité initiale
     def __init__(self, product:Product, quantity):
+
+        self.product = product
+        self.quantity = quantity
+        self.sales = 0
+        self.expenses = 0
         """
         'product' : un objet de type produit qui rassemble les différents attributs et caractéristiques de ce dernier
         'quantity' : un entier qui représente le nombre des pièces du produit en question
@@ -36,7 +44,14 @@ class InventoryProductEntry:
             Retourner Vrai
         
         """
-    
+        if self.quantity < quantity:
+            print("Le stock du produit [nom du produit] est insuffisant.")
+            return False
+        else:
+            self.quantity-=quantity
+            self.sales+=self.product.price*quantity
+            return True
+
     #Méthode Restock
     """
     La méthode restock est utilisée pour augmenter la quantité en stock lorsqu'un nouveau stock de produit est reçu. 
@@ -47,6 +62,8 @@ class InventoryProductEntry:
         Ajouter la quantité reçue à la quantité en stock
         Ajouter le coût total de la nouvelle quantité reçue  à la variable 'expenses' en multipliant la quantité reçue par le coût du produit
         """
+        self.quantity+=quantity
+        self.expenses+=self.product.cost*quantity
 
     #Méthode repr
     """
@@ -56,3 +73,14 @@ class InventoryProductEntry:
     """
     def __repr__(self):
         # Retourner une chaîne de caractères formatée contenant le nom du produit, la marque, la quantité en stock et le prix du produit.
+        mvt="Le stock de " + self.product.name + " de marque " + self.product.marque + " est de " + str(self.quantity)
+        qte="Son prix est de " + str(self.product.price)
+        return (mvt + "\n"+ qte)
+
+ma_chaise=Product(10, 20, 'nitron')
+mouvement=InventoryProductEntry(ma_chaise,10)
+print(mouvement)
+mouvement.sell(5)
+print(mouvement)
+mouvement.restock(3)
+print(mouvement)
