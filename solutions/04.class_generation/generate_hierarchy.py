@@ -1,11 +1,11 @@
-from generator.generate_class_def import generate_class_def 
+import class_generation
 
 def generate_class_hierarchy(json_dict :dict, superclass_name:str=None,superclass_args:list=[]):
     class_defs = ""
 
     for class_name, class_attrs in json_dict.items():
 
-        class_def = generate_class_def(class_name, class_attrs, superclass_name,superclass_args)
+        class_def = class_generation.generate_class_def(class_name, class_attrs, superclass_name,superclass_args)
         class_defs += class_def
 
         if "subclasses" in class_attrs:
