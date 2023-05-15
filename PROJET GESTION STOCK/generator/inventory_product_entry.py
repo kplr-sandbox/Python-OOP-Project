@@ -1,6 +1,9 @@
 # Vous allez créer une classe InventoryProductEntry qui a pour role 
 # de représenter une entrée d'inventaire pour un produit spécifique.
-from generator.product_classes import *
+import sys
+sys.path.append('/workspaces/Python-OOP-Project/PROJET GESTION STOCK/generator')
+
+from product_classes import *
 
 
 

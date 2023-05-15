@@ -1,3 +1,9 @@
+
+import sys
+sys.path.append('/workspaces/Python-OOP-Project/PROJET GESTION STOCK/generator')
+
+from product_classes import *
+
 class InventoryManager:
 	def __init__(self):
 		self.inventory : Dict[str, InventoryProductEntry] = {}
